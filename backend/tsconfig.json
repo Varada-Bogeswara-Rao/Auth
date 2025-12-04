@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2016", /* specific JS version to compile to */
+        "module": "commonjs", /* Node.js standard module system */
+        "outDir": "./dist", /* Where the compiled JS files will go */
+        "rootDir": "./src", /* Where your TypeScript source files live */
+        "strict": true, /* Enables strong type checking */
+        "esModuleInterop": true, /* Allows you to use 'import' instead of 'require' */
+        "skipLibCheck": true, /* Skips checking types in node_modules (speeds up build) */
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*"
+    ], /* Include all files in the src folder */
+    "exclude": [
+        "node_modules"
+    ] /* Don't compile library files */
+}
